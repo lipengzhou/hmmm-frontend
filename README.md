@@ -1,19 +1,16 @@
 # hmmm-frontend
 
-## Project setup
-```
-yarn install
-```
+## 项目运行
 
-### Compiles and hot-reloads for development
-```
+```bash
+git clone https://github.com/lipengzhou/hmmm-frontend.git
+
+# 进入你的项目中
+cd hmmm-frontend
+
+# 安装依赖
+yarn install
+
+# 启动
 yarn serve
 ```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
