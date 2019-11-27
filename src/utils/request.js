@@ -104,3 +104,7 @@ export const createFormAPI = (url, method, data) => {
     ...config
   })
 }
+
+// instance 就是 axios 请求对象
+// 它已经在请求拦截器中添加了 token 等操作
+export default instance

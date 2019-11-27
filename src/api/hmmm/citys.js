@@ -3907,6 +3907,7 @@ const datas = [
 ]
 
 // 所有城市
+// provinces() 所有的城市
 export const provinces = () => {
   return datas.map(item => {
     return item.city
@@ -3914,6 +3915,7 @@ export const provinces = () => {
 }
 
 // 城市下地区
+// citys('城市名')
 export const citys = pname => {
   for (const item of datas) {
     if (item.city === pname) {
