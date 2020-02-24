@@ -9,8 +9,8 @@ git clone https://github.com/lipengzhou/hmmm-frontend.git
 cd hmmm-frontend
 
 # 安装依赖
-yarn install
+npm install
 
-# 启动
-yarn serve
+# 启动开发服务
+npm run serve
 ```
